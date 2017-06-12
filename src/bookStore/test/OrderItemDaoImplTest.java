@@ -22,7 +22,7 @@ public class OrderItemDaoImplTest {
 
 		for (OrderItem orderItem : lists) {
 
-			System.out.println("-sss----->>" + orderItem.getGoods_id());
+			System.out.println("------>>" + orderItem.getGoods_id());
 			System.out.println("------>>" + orderItem.getConsignee());
 			System.out.println("------>>" + orderItem.getIndent_No());
 			System.out.println("------>>" + orderItem.getIndent_status());
